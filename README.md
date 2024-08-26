@@ -1,3 +1,10 @@
+Build CI CD Pipeline with AWS CodeDeploy and AWS CodePipeline to deploy Node.js app | Step By Step
+
+Scale-Up SaaS 
+
+https://youtu.be/4UoAdn4DtdY
+=======
+
 # nodejs-aws-codedeploy-pipeline
 
 How to set ci/cd for nodejs app with aws codeDeploy and aws codePipeline
