@@ -24,7 +24,7 @@ ssh -i <key.pem> ec2-user@<ip-address> -v
 ### 3. Update and Upgrade linux machine and install node, nvm and pm2
 
 ```sh
-sudo yum update
+sudo yum update (sudo apt update, since it is on ubuntu, instead of Amazon Linux)
 ```
 
 ```sh
@@ -81,7 +81,7 @@ npm -v
 ### 4. Clone nodejs-aws-codedeploy-pipeline repository
 
 ```sh
-cd /home/ec2-user
+cd /home/ec2-user (cd /home/ubuntu)
 ```
 
 ```sh
@@ -99,7 +99,7 @@ npm install
 ```
 
 ```sh
-node app.js
+node app.js (node api/index.js, in package.json file)
 ```
 
 ### 6. Install pm2
